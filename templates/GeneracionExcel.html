@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Exámenes</title>
+</head>
+<body class="container m-2">
+    <h1 class="text-center"> Archivo de excel generado </h1>
+
+    <p> Archivo generado en la ruta: </p>
+    <p> {{ruta}} </p>
+    <img src="/static/excel.png" alt="Imagen excel" style="max-height: 200px"><br>
+    
+    <a class="btn btn-secondary" href="http://127.0.0.1:5000/funcionesAdmin?auth_token={{token}}">Regresar</a>
+</body>
+</html>
